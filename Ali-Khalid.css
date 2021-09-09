@@ -1,0 +1,253 @@
+body{
+	background-color: #36454F;
+    font-family: Arial;
+    font-size: 90%;
+    line-height: 1.5;
+    text-align: center;
+}
+.body{
+	margin: 10px auto;
+	width: 90%;
+	clear: both;
+}
+.SHBL{
+	text-shadow: 2px 2px black;
+}
+header {
+	background-image: url(https://evansalliance.com/wp-content/uploads/2017/01/purple-curly-header.jpg);
+	background-color: #C70039 ;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.mainheader h1 {
+	padding-top: 10px;
+	color: white;
+}
+.mainheader h2 {
+	color: white;
+}
+.mainheader nav {
+	margin: 0 10px;
+	height: 100%;
+	background-color: #2c0424;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.mainheader nav ul {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.mainheader nav ul li {
+	margin: 10px;
+	font-size: 20px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 20px;
+}
+.mainheader a:visited ,a:link {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+.mainheader a:hover ,a:active {
+	text-shadow: 1px 1px black;
+	background-color: #301934;
+}
+.DDS{
+	float: left;
+	width: 66%;
+}
+.DDS2{
+	float: left;
+	width: 100%;
+}
+.maincontent{
+	margin: 10px;
+	background-color: rgba(199, 0, 57,0.7) ;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.maincontent h2 {
+	background-color: #800c49;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-bottom: 20px;
+	color: white;
+	line-height: 1;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.maincontent h3 {
+	color: white;
+}
+.maincontent p {
+	padding: 0 5px;
+	color: white;
+	padding-bottom: 20px;
+}
+iframe {
+	width: 100%;
+}
+figcaption{
+	color: #808080;
+	font-size: 12px;
+}
+.TheSide{
+	margin: 10px;
+	float: right;
+	width: 30%;
+	background-color: rgb(255, 127, 80) ;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.TheSide h2 {
+	color: white;
+	line-height: 1;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.TheSide p {
+	padding: 0 5px;
+	color: white;
+	padding-bottom: 20px;
+}
+a:active{
+	color: red;
+	background-color: none;
+}
+a:hover {
+	color: #40B5AD;
+}
+a {
+	color: aqua;
+}
+
+.TheSide img {
+	width: 90px;
+	border: solid 2px black;
+}
+#YTSide{
+	padding-bottom: 10px;
+}
+.MYAC{
+	margin: 10px;
+	float: right;
+	width: 30%;
+	background-color: rgb(255, 127, 80) ;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.MYAC h2 {
+	color: white;
+	line-height: 1;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.MYAC p {
+	padding: 0 5px;
+	color: white;
+	padding-bottom: 20px;
+}
+.MYAC img {
+	
+	width: 90px;
+	padding-bottom: 20px;
+}
+.maincontent2{
+    width: 100%;
+	background-color: rgba(199, 0, 57,0.7);
+}
+.maincontent2 h1 {
+	width: 100%;
+	background-color: #800c49;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding-bottom: 20px;
+	color: white;
+	line-height: 1;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.maincontent2 h2 {
+	color: white;
+}
+.maincontent2 img {
+	width: 100%;
+}
+.maincontent2 h3 {
+	color: white;
+}
+
+.figure2 {
+	width: 40%;
+	display: inline-block;
+}
+.maincontentfooter {
+    margin-bottom: 50px;
+	background-color: #800c49;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.comments2{
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	border: solid 2px white;
+}
+.comments{
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	border: solid 2px white ;
+}
+/*----------------------------------------------*/
+@media screen and (max-width: 480px){
+.mainheader nav ul {
+	margin-right: 35px;
+}
+.mainheader nav ul li {
+	margin: 0 auto;
+	display: block;
+	padding: 0 auto ;
+}
+.DDS{
+	width: 100%;
+}
+.mainheader a:visited ,a:link {
+	display: block;
+}
+.mainheader nav {
+	margin: 0 auto;
+	width: 70%;
+
+}
+
+.TheSide{
+	width: 95%;
+}
+.TheSide img {
+	float: left;
+	width: 98px;
+	border: solid 2px black;
+}
+.MYAC{
+	width: 100%;
+}
+.MYAC img {
+	width: 115px;
+}
+.figure2 {
+	width: 80%;
+	display: block;
+}
+
+}
